@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0, 0, 0, 0.631)), url("/ts/tshirt\ page.jpg");
+    background-size: cover; /* Cover the entire background */
+    background-position: center;
+
+
+}
+.sticker {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw; /* 50% of viewport width */
+    height: 50vh; /* 50% of viewport height */
+    background-color: #ececec;
+    border: 2px solid #fff; /* Add border for better visibility */
+    z-index: 9999; /* Ensure it's above other content */
+    padding: 20px; /* Add some padding for content */
+    text-align: center; /* Center-align text */
+    color: #385170; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 70px black; /* Add a subtle box shadow */
+}
+h1 {
+    text-decoration: underline; /* Underline the h1 heading */
+    font-size: 1.5em; /* Increase the font size of the h1 heading */
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Align list items to the left */
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.2em; /* Increase the font size of list items */
+}
+
+li:before {
+    content: "•"; /* Use a bullet point as content before each list item */
+    color: #385170; /* Match the color of the list items */
+    display: inline-block;
+    width: 1em; /* Set width to ensure spacing between bullet point and text */
+    margin-left: -1em; /* Adjust margin to align bullet point properly */
+    font-size: 1.2em; /* Adjust bullet point size */
+}
+li:hover{
+    color: blue;
+}

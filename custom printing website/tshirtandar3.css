@@ -1,0 +1,48 @@
+/* tshirtandar.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ececec;
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Ensure the body takes full viewport height */
+}
+
+.photo {
+    display: flex;
+    align-items: flex-start; /* Align photo content to the top */
+}
+
+.photo img {
+    width: 600px; /* Adjust the width of the image */
+    height: 550px; /* Maintain aspect ratio */
+    box-shadow: 0 0 8px 3px black; /* Add a border around the image */
+    margin-left: 20px;
+}
+
+/* Adjust the list container */
+.photo div {
+    margin-left: 20px; /* Add spacing between the image and list */
+}
+
+/* Adjust the list itself */
+.photo ul {
+    list-style-type: disc; /* Remove bullet points */
+    display: flex;
+    flex-direction: column; 
+    margin-left: 10px;/* Align list items vertically */
+}
+
+.photo li {
+    margin-bottom: 10px; /* Add margin between list items */
+}
+.list h4{
+    margin-bottom: 15px;
+}
+
